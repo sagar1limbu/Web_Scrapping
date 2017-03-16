@@ -1,0 +1,13 @@
+com\infodev\Pojo\SubIndi.class
+com\infodev\Entity\Stock.class
+com\infodev\Entity\StockPriceDetl.class
+com\infodev\Controllers\Scapper.class
+com\infodev\Services\OhlcService.class
+com\infodev\Controllers\DefaultController.class
+com\infodev\Pojo\GlobalResponse.class
+com\infodev\Entity\StockPriceMast.class
+com\infodev\Services\OhlcServiceImpl.class
+com\infodev\Pojo\OhlcRequest.class
+com\infodev\Pojo\Market.class
+com\infodev\Repository\OhlcDao.class
+com\infodev\Repository\OhlcDaoImpl.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="WealthFeedSrv@sagar" uuid="997b1697-f76d-470a-ba03-87825cf84f42">
+      <database-info product="Microsoft SQL Server" version="12.00.2269" jdbc-version="4.0" driver-name="Microsoft JDBC Driver 4.0 for SQL Server" driver-version="4.0.2206.100">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <resolve-scope>WealthFeedSrv:*</resolve-scope>
+    </data-source>
+  </component>
+</project>

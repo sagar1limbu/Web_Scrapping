@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="WealthFeedSrv@sagar">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="3" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="4" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="5" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="6" parent="1" name="ReportServer">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+    </database>
+    <database id="7" parent="1" name="ReportServerTempDB">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="8" parent="1" name="liferay">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="9" parent="1" name="WealthFeedSrv">
+      <ObjectId>9</ObjectId>
+      <Current>1</Current>
+    </database>
+    <database id="10" parent="1" name="wealthstock">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="11" parent="1" name="testdata">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="12" parent="1" name="doi_application">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="13" parent="1" name="report_data">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="14" parent="1" name="hibernate">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="15" parent="1" name="OPMISDB_STAGING">
+      <ObjectId>14</ObjectId>
+    </database>
+  </database-model>
+</dataSource>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="WealthFeedSrv@sagar" uuid="997b1697-f76d-470a-ba03-87825cf84f42">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://sagar\SQLEXPRESS:1433;databaseName=WealthFeedSrv</jdbc-url>
+    </data-source>
+  </component>
+</project>
